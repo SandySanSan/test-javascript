@@ -1,7 +1,7 @@
 import React from 'react'
 import {render, fireEvent} from 'calculator-test-utils'
-import Calculator from '../calculator'
 import {dark} from 'themes'
+import Calculator from '../calculator'
 
 test('the clear button switches from AC to C when there is an entry', () => {
   const {getByText} = render(<Calculator />, {theme: dark})
