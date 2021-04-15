@@ -12,7 +12,7 @@ function getScale(node) {
   const actualWidth = node.offsetWidth
   const actualScale = availableWidth / actualWidth
 
-  if (actualScale < 1) {
+  if (actualScale < 2) {
     return actualScale * 0.9
   }
   return 1
