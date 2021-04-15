@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1618419389664" clover="3.2.0">
-  <project timestamp="1618419389664" name="All files">
-    <metrics statements="112" coveredstatements="41" conditionals="50" coveredconditionals="13" methods="45" coveredmethods="14" elements="207" coveredelements="68" complexity="0" loc="112" ncloc="112" packages="2" files="7" classes="7"/>
+<coverage generated="1618478873044" clover="3.2.0">
+  <project timestamp="1618478873044" name="All files">
+    <metrics statements="114" coveredstatements="41" conditionals="50" coveredconditionals="13" methods="46" coveredmethods="14" elements="210" coveredelements="68" complexity="0" loc="114" ncloc="114" packages="3" files="8" classes="8"/>
     <package name="src">
       <metrics statements="89" coveredstatements="19" conditionals="39" coveredconditionals="5" methods="40" coveredmethods="9"/>
       <file name="app.js" path="/home/sandy/Documents/testing-Javascript/jest-cypress-react-babel-webpack-tjs-jest-10/src/app.js">
@@ -104,6 +104,14 @@
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.__server_tests__">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="auto-scaling-text.js" path="/home/sandy/Documents/testing-Javascript/jest-cypress-react-babel-webpack-tjs-jest-10/src/__server_tests__/auto-scaling-text.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.shared">
